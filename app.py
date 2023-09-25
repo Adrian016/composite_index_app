@@ -47,7 +47,7 @@ class StreamlitApp:
     def __init__(self):
         self.df_categories = db.fetch_all_categories()
     
-        st.set_page_config(page_title="Product Composite Index", page_icon="favicon.ico", layout="wide")
+        st.set_page_config(page_title="Product Composite Index", page_icon="./media/favicon.ico", layout="wide")
         
 
     def gather_user_inputs(self):
@@ -190,7 +190,7 @@ class StreamlitApp:
         
         # Display logo in footer
         _, logo_placeholder, _ = st.columns([7, 2 , 7])  # Adjusting the size ratio of the columns as needed
-        logo_placeholder.image("logo.png")
+        logo_placeholder.image("./media/logo.png")
 
 
 if __name__ == "__main__":
