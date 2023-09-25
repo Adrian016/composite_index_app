@@ -1,0 +1,7 @@
+streamlit
+pandas
+python-dotenv 
+sqlalchemy
+plotly
+sqlalchemy-bigquery
+sqlalchemy-bigquery[bqstorage]
